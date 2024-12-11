@@ -1,0 +1,53 @@
+@media (max-width: 480px) {
+
+    .form {
+        width: 90%;
+        max-width: 450px;
+        background-color: white;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    #inputField {
+        width: 100%;
+    }
+
+    .enter {
+        text-align: center;
+    }
+
+    #add_Button {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #list {
+        border: 1px solid #b6b1b1;
+        overflow-y: auto;
+        margin-top: 10px;
+    }
+
+    #sort_ByName, #sort_ByValue, #clear_button {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #exit {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button_sort {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+

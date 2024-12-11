@@ -1,0 +1,19 @@
+@media (min-width: 4801px) and (max-width: 1024px)  {
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #list {
+        height: 180px;
+    }
+
+    .button_sort{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+
+    }
+}

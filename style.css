@@ -1,0 +1,84 @@
+body{
+    background-color: #170cd9;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 100;
+    color: grey;
+}
+.form {
+    width: 450px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+}
+#inputField{
+width: 200px;
+}
+
+.enter{
+    margin: 20px 30px 50px 30px ;
+
+}
+#add_Button{
+    margin: 5px 10px 0 25px;
+    border: 1px solid;
+    padding: 2px 5px 2px 5px;
+    font-size: 14px;
+    border-radius: 7px;
+    background: rgb(234, 232, 224) linear-gradient(rgb(251, 251, 247), rgb(244, 242, 238));
+
+}
+
+#list{
+border: 1px solid #b6b1b1;
+    width: 200px;
+    height: 200px;
+
+
+}
+#sort_ByName, #sort_ByValue, #clear_button{
+    border: 1px solid;
+    padding: 2px 5px 2px 5px;
+    font-size: 14px;
+    border-radius: 7px;
+    background: rgb(234, 232, 224) linear-gradient(rgb(251, 251, 247), rgb(244, 242, 238));
+    margin: 10px;
+}
+#exit{
+    margin: 20px 0 50px 30px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button_sort{
+
+
+    margin: 5px 15px 10px 15px;
+    align-content: center;
+
+}
+    #clear_button{
+        align-items: center;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+
+
+
